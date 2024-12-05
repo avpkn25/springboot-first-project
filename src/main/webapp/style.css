@@ -1,0 +1,253 @@
+/* Existing styles from the previous examples */
+
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #333;
+    margin-top: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Center the navbar items */
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for a 3D effect */
+    padding: 15px 0;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 60%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #4CAF50; /* Initial link color */
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 0 10px;
+}
+
+/* Unique colors for each link */
+.navbar a:nth-child(1) {
+    color: #FF6347; /* Tomato */
+}
+
+.navbar a:nth-child(2) {
+    color: #4682B4; /* Steel Blue */
+}
+
+.navbar a:nth-child(3) {
+    color: #DAA520; /* Golden Rod */
+}
+
+.navbar a:nth-child(4) {
+    color: #6A5ACD; /* Slate Blue */
+}
+
+.navbar a:nth-child(5) {
+    color: #20B2AA; /* Light Sea Green */
+}
+
+.navbar a:hover {
+    background-color: #e0e0e0; /* Light gray background on hover */
+    color: #000; /* Black text on hover */
+}
+
+/* Additional styles for the ordered list (ol) */
+ol {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    list-style-position: inside;
+}
+
+ol li {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+
+/* Styles for the form */
+.form-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 25%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+form {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+/* Specific styles for green and red buttons */
+input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Green for submit */
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f44336; /* Red for reset */
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effects for buttons */
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+input[type="reset"]:hover {
+    background-color: #d32f2f; /* Darker red */
+}
+
+/* Styles for the textarea */
+textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: vertical; /* Allow vertical resizing only */
+    font-family: Arial, sans-serif; /* Match the font of the form */
+    font-size: 16px; /* Ensure consistent font size */
+    color: #333; /* Text color */
+}
+
+/* Optional: Add focus styles for textarea */
+textarea:focus {
+    border-color: #4CAF50; /* Change border color on focus */
+    outline: none; /* Remove the default outline */
+}
+
+
+/* Styling for the success container */
+.success-container {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 50%;
+    margin: 30px auto;
+    padding: 30px;
+    text-align: center; /* Center align the content */
+    transition: transform 0.3s;
+}
+
+.success-container:hover {
+    transform: scale(1.02); /* Slight zoom on hover for dynamic effect */
+}
+
+/* Styling for the success message */
+.success-message {
+    font-size: 18px;
+    color: #4CAF50; /* Green color for success message */
+    margin-bottom: 20px;
+}
+
+/* Styling for the login link */
+.login-link {
+    text-decoration: none;
+    color: #fff;
+    background-color: #4CAF50; /* Green background for the button-like appearance */
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the login link */
+.login-link:hover {
+    background-color: #45a049; /* Darker green on hover */
+    color: #fff;
+}
+
+.card {
+    width: 300px; /* Adjust width as needed */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* White background */
+    text-align: left; /* Align text to the left */
+}
+
+.card-content h2 {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.card-content p {
+    margin: 10px 0; /* Space between each paragraph */
+}
+
+.center-message {
+    text-align: center; /* Center text horizontally */
+    font-size: 18px; /* Increase font size */
+    font-weight: bold; /* Make the text bold */
+}

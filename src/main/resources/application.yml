@@ -6,9 +6,9 @@ spring:
     name: SpringBootMVCSDPProject
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/springbootmvcsdpproject21
+    url: jdbc:mysql://localhost:3306/springboot-first-project
     username: root
-    password: AVPKNaidu9699
+    password: ********
   jpa:
     hibernate:
       ddl-auto: update
